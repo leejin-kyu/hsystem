@@ -1,0 +1,10 @@
+# robots.txt for 해태시스템 (HAETAE SYSTEM)
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://hsystem.vercel.app/sitemap.xml
+
+# Crawl delay (optional, helps prevent server overload)
+Crawl-delay: 1
