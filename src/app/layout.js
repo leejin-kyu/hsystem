@@ -153,6 +153,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ko" suppressHydrationWarning>
       <head>
+        <meta name="naver-site-verification" content="e548375c5e31c445acad88d83627211933e635ab" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
