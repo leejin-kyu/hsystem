@@ -19,7 +19,7 @@ export const metadata = {
     default: '해태시스템 - AI·ESG·데이터 기반 산업혁신 컨설팅 | ISO·빅데이터·교육',
     template: '%s | 해태시스템 (HAETAE SYSTEM)'
   },
-  description: 'AI·빅데이터 분석, ESG 컨설팅, ISO 인증 전문 기업. 빅데이터분석기사, ISO 국제심사원, GHG·GRI 검증심사원 보유. 스마트팩토리·데이터바우처 수행. 춘천 본사 컨소시엄 5명.',
+  description: 'AI·빅데이터 분석, ESG 컨설팅, ISO 인증 전문 기업. 빅데이터분석기사, ISO 국제심사원, GHG·GRI 검증심사원 보유. 스마트팩토리·데이터바우처 수행. 광주 본사 컨소시엄 5명.',
   keywords: [
     'AI 빅데이터 분석',
     'ESG 컨설팅',
@@ -34,8 +34,8 @@ export const metadata = {
     'Python 교육',
     '스마트팩토리',
     '데이터바우처',
-    '춘천 컨설팅',
-    '강원도 AI'
+    '광주 컨설팅',
+    '광주 AI'
   ],
   authors: [{ name: '해태시스템 (HAETAE SYSTEM)' }],
   creator: '해태시스템',
@@ -106,8 +106,8 @@ export default function RootLayout({ children }) {
         foundingDate: '2024',
         address: {
           '@type': 'PostalAddress',
-          addressLocality: '춘천시',
-          addressRegion: '강원특별자치도',
+          addressLocality: '광주광역시',
+          addressRegion: '광주광역시',
           postalCode: '',
           addressCountry: 'KR'
         },
@@ -151,15 +151,17 @@ export default function RootLayout({ children }) {
   };
 
   return (
-    <html lang="ko">
+    <html lang="ko" suppressHydrationWarning>
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          suppressHydrationWarning
         />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
+        suppressHydrationWarning
       >
         <Header />
         <main className="flex-1">{children}</main>

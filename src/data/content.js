@@ -5,7 +5,7 @@ export const siteContent = {
   // 공통 정보
   common: {
     companyName: "해태시스템 (HAETAE SYSTEM)",
-    tagline: "AI·ESG·데이터 기반 산업혁신 컨설팅 기업",
+    tagline: "AI·빅데이터 기반 스마트산업 전문기업",
     description: "데이터로 진단하고, AI로 혁신하다",
   },
 
@@ -28,7 +28,7 @@ export const siteContent = {
   footer: {
     company: {
       title: "해태시스템 (HAETAE SYSTEM)",
-      description: "AI·ESG·데이터 기반 산업혁신 컨설팅 기업\n데이터로 진단하고, AI로 혁신하다"
+      description: "AI·빅데이터 기반 스마트산업 전문기업\n데이터로 진단하고, AI로 혁신하다"
     },
     quickLinks: {
       title: "메뉴",
@@ -51,7 +51,7 @@ export const siteContent = {
       title: "문의",
       email: "jakobcc@naver.com",
       phone: "070-8027-4653 / 010-7657-3366",
-      address: "강원특별자치도 춘천시 수풍골길 13번길 27, 2동 403호"
+      address: "광주광역시 남구 회재로 211"
     },
     social: {
       title: "Follow Us",
@@ -70,10 +70,10 @@ export const siteContent = {
     // 히어로 섹션
     hero: {
       badge: "AI·ESG·데이터 기반 산업혁신 컨설팅 기업",
-      title: "데이터로 진단하고,\nAI로 혁신하다",
-      subtitle: "스마트 산업 컨설팅 전문기업",
+      title: "데이터로 진단하고, AI로 혁신하다",
+      subtitle: "AI·빅데이터 기반 스마트산업 전문기업",
       description: "해태시스템은 AI, 빅데이터, ESG, ISO 컨설팅을 통해\n기업의 디지털 전환(DX)과 지속가능경영(ESG)을 실현합니다.",
-      techStack: "설립 2024년 · 춘천 본사 · 컨소시엄 5명",
+      techStack: "설립 2024년 · 광주 본사 · 컨소시엄 다수",
       buttons: {
         bigdata: {
           text: "사업분야 보기",
@@ -86,7 +86,7 @@ export const siteContent = {
       },
       stats: [
         { number: "2024", label: "설립연도" },
-        { number: "5+", label: "전문 컨설턴트" },
+        { number: "다수", label: "전문 컨설턴트" },
         { number: "AI+ESG", label: "융합 솔루션" },
         { number: "ISO", label: "국제심사원" }
       ]
@@ -159,7 +159,7 @@ export const siteContent = {
     // 컨소시엄 팀 섹션
     clients: {
       title: "컨소시엄 전문팀",
-      subtitle: "5명의 검증된 전문가가 프로젝트를 수행합니다",
+      subtitle: "다수의 검증된 전문가가 프로젝트를 수행합니다",
       categories: [
         {
           title: "정혜진 대표",
@@ -171,7 +171,7 @@ export const siteContent = {
         },
         {
           title: "전문 컨설턴트",
-          description: "ESG·ISO·데이터분석 전문가\n5명의 컨소시엄 팀"
+          description: "ESG·ISO·데이터분석 전문가\n다수의 컨소시엄 팀"
         }
       ]
     },
@@ -223,8 +223,8 @@ export const siteContent = {
   about: {
     hero: {
       title: "해태시스템 소개",
-      subtitle: "AI·ESG·데이터 기반 산업혁신 컨설팅 기업",
-      description: "데이터로 진단하고, AI로 혁신하는\n스마트 산업 컨설팅 전문기업입니다."
+      subtitle: "AI·빅데이터 기반 스마트산업 전문기업",
+      description: "데이터로 진단하고, AI로 혁신하는\n검증된 전문성과 풍부한 프로젝트 경험을 보유한 기업입니다."
     },
     overview: {
       title: "회사 개요",
@@ -232,14 +232,14 @@ export const siteContent = {
         { label: "회사명", value: "해태시스템 (HAETAE SYSTEM)" },
         { label: "대표", value: "정혜진" },
         { label: "설립연도", value: "2024년" },
-        { label: "본사", value: "강원특별자치도 춘천시 수풍골길 13번길 27, 2동 403호" },
+        { label: "본사", value: "광주광역시 남구 회재로 211" },
         { label: "주요 사업", value: "AI·데이터 분석, ESG 컨설팅, ISO 인증, 교육 서비스" },
-        { label: "전문인력", value: "5명의 컨소시엄 전문가" }
+        { label: "전문인력", value: "다수의 컨소시엄 전문가" }
       ]
     },
     team: {
       title: "컨소시엄 전문팀",
-      subtitle: "5명의 검증된 전문가",
+      subtitle: "다수의 검증된 전문가",
       members: [
         {
           name: "정혜진 대표",
@@ -274,12 +274,61 @@ export const siteContent = {
       ]
     },
     qualifications: {
-      title: "보유 자격",
+      title: "보유 자격 및 인증",
       items: [
         "빅데이터분석기사 / 정보처리기사",
         "ISO 국제심사원 (9001, 14001, 27001, 45001, 37001)",
-        "GHG Professional / GRI Certified / ACSAP 검증심사원",
-        "ESG 경영컨설턴트 1급"
+        "GHG Professional (BSI) / GRI Certified Course (GRI)",
+        "ACSAP (AA1000AS) 제3자 공인검증심사원",
+        "Carbon Footprint of Products 제품의 탄소발자국 (BSI)",
+        "ISSB기준(IFRS S1, S2) 공시 대응",
+        "ESG 경영컨설턴트 1급 / ESG 국제심사원"
+      ]
+    },
+    projects: {
+      title: "주요 프로젝트 실적",
+      subtitle: "공공기관 및 대기업 300+ 프로젝트 수행",
+      categories: [
+        {
+          title: "ISO 인증 심사",
+          description: "다수 기업 ISO 통합심사 수행",
+          items: [
+            "대기업 ISO 9001, 14001, 45001 통합심사",
+            "중견기업 ISO 27001 정보보안 심사",
+            "제조업체 ISO 품질경영시스템 인증",
+            "건설업 ISO 안전보건경영시스템 구축"
+          ]
+        },
+        {
+          title: "AI·빅데이터 분석",
+          description: "데이터 기반 의사결정 지원",
+          items: [
+            "AI 기반 주택가격 예측모델 개발",
+            "전력수요 예측모델 구축",
+            "인공지능 학습용 데이터 품질검사",
+            "공공데이터 품질관리 및 메타관리"
+          ]
+        },
+        {
+          title: "ESG 컨설팅",
+          description: "지속가능경영 전략 수립",
+          items: [
+            "ESG 경영컨설팅 및 관리지표 도출",
+            "지속가능경영보고서 작성 지원",
+            "공급망 ESG 대응 교육 및 자문",
+            "GHG 배출량 산정 및 검증"
+          ]
+        },
+        {
+          title: "교육 및 훈련",
+          description: "공공·대학·기업 교육 실적",
+          items: [
+            "육군사관학교 AI 교육 출강",
+            "순천대학교 ESG 공급망 대응 교육",
+            "한국품질기술원 ESG 심사원 양성교육",
+            "한국디지털진흥원 ESG 기초 및 실무 강의"
+          ]
+        }
       ]
     },
     strengths: {
@@ -291,7 +340,7 @@ export const siteContent = {
         },
         {
           title: "ISO 인증 심사 전문성",
-          description: "다수 기업(직방, 삼양화학, 다비오 등) ISO 통합심사 수행"
+          description: "다수 기업 ISO 통합심사 수행 (대기업·중견기업 등)"
         },
         {
           title: "공공기관 과제 수행 역량",
@@ -300,6 +349,31 @@ export const siteContent = {
         {
           title: "정부 평가 대응 컨설팅",
           description: "공공데이터 품질·메타관리·인증 컨설팅 수행 가능 (행안부 평가 대응)"
+        }
+      ]
+    },
+    stats: {
+      title: "해태시스템 실적 현황",
+      items: [
+        {
+          number: "300+",
+          label: "프로젝트 수행",
+          description: "공공·기업 프로젝트"
+        },
+        {
+          number: "7+",
+          label: "전문 자격",
+          description: "국제 인증 보유"
+        },
+        {
+          number: "4개",
+          label: "핵심 사업",
+          description: "AI·ESG·ISO·교육"
+        },
+        {
+          number: "2024",
+          label: "설립연도",
+          description: "광주 본사"
         }
       ]
     }
