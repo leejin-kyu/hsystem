@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <>
       <ContactModal isOpen={isContactModalOpen} onClose={() => setIsContactModalOpen(false)} />
-      <footer id="contact" className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 text-white pb-24 relative overflow-hidden">
+      <footer id="contact" className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 text-white pb-20 sm:pb-24 relative overflow-hidden">
         {/* 배경 글로우 효과 */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500 rounded-full filter blur-3xl"></div>
@@ -142,27 +142,29 @@ export default function Footer() {
       </footer>
 
       {/* Fixed CTA Bar */}
-      <div className="fixed bottom-0 left-0 right-0 bg-gradient-to-r from-blue-600 via-cyan-600 to-sky-600 dark:from-indigo-700 dark:via-violet-700 dark:to-fuchsia-700 py-4 shadow-2xl z-40 border-t-2 border-white/20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-3">
-            <div className="text-center md:text-left text-white">
-              <h4 className="text-lg font-black mb-0.5">컨설팅 문의</h4>
-              <p className="text-xs opacity-90 font-medium">AI·ESG·ISO 컨설팅 및 프로젝트 문의를 남겨주세요</p>
+      <div className="fixed bottom-0 left-0 right-0 bg-gradient-to-r from-blue-600 via-cyan-600 to-sky-600 dark:from-indigo-700 dark:via-violet-700 dark:to-fuchsia-700 py-3 sm:py-4 shadow-2xl z-40 border-t-2 border-white/20">
+        <div className="container mx-auto px-3 sm:px-4 lg:px-8">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-2 sm:gap-3">
+            <div className="text-center sm:text-left text-white hidden sm:block">
+              <h4 className="text-base sm:text-lg font-black mb-0.5">컨설팅 문의</h4>
+              <p className="text-xs opacity-90 font-medium hidden md:block">AI·ESG·ISO 컨설팅 및 프로젝트 문의를 남겨주세요</p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-3">
+            <div className="flex flex-row gap-2 sm:gap-3 w-full sm:w-auto justify-center">
               <a
                 href="tel:070-8027-4653"
-                className="px-6 py-2.5 bg-white text-blue-600 rounded-full font-black hover:scale-105 transition-all duration-300 shadow-xl whitespace-nowrap flex items-center gap-2 text-sm"
+                className="flex-1 sm:flex-none px-4 sm:px-6 py-2 sm:py-2.5 bg-white text-blue-600 rounded-full font-black hover:scale-105 transition-all duration-300 shadow-xl whitespace-nowrap flex items-center justify-center gap-1.5 sm:gap-2 text-xs sm:text-sm"
               >
-                <Phone className="w-4 h-4" />
-                전화 상담
+                <Phone className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                <span className="hidden xs:inline">전화 상담</span>
+                <span className="xs:hidden">전화</span>
               </a>
               <button
                 onClick={() => setIsContactModalOpen(true)}
-                className="px-6 py-2.5 bg-white/90 text-slate-700 rounded-full font-black hover:scale-105 transition-all duration-300 shadow-xl whitespace-nowrap flex items-center gap-2 text-sm"
+                className="flex-1 sm:flex-none px-4 sm:px-6 py-2 sm:py-2.5 bg-white/90 text-slate-700 rounded-full font-black hover:scale-105 transition-all duration-300 shadow-xl whitespace-nowrap flex items-center justify-center gap-1.5 sm:gap-2 text-xs sm:text-sm"
               >
-                <Mail className="w-4 h-4" />
-                이메일 문의
+                <Mail className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                <span className="hidden xs:inline">이메일 문의</span>
+                <span className="xs:hidden">이메일</span>
               </button>
             </div>
           </div>
